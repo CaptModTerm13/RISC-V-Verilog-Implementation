@@ -13,15 +13,6 @@ This register file follows the RISC-V ISA convention:
 - 32 general-purpose registers: `x0` to `x31`, each 32 bits wide.
 - Register `x0` is immutable and always reads as `0`, regardless of any attempted writes.
 
-## 📁 Files
-
-| File Name            | Description                                     |
-|----------------------|-------------------------------------------------|
-| `RegisterFile.sv`    | The main Register File module (32x32 design)    |
-| `RegisterFile_tb.sv` | Testbench with clock, write/read tests, and VCD dump |
-| `RegisterFile_tb.vcd`| Generated waveform file (after simulation)      |
-| `README.md`          | This project documentation                      |
-
 ## 📜 Module Interface
 
 ### Module: `RegisterFile`
