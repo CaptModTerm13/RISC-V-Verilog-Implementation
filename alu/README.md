@@ -6,7 +6,7 @@ This module implements the Arithmetic Logic Unit (ALU) for a single-cycle RISC-V
 
 ## 🔧 Interface
 
-### ### Inputs
+### Inputs
 | Signal       | Width | Description                                    |
 |--------------|--------|------------------------------------------------|
 | `SrcA`       | 32-bit | First operand (usually from register `rs1`)   |
