@@ -4,7 +4,7 @@ A Verilog implementation of a 4KB data memory module for RISC-V single-cycle pro
 
 ## Overview
 
-The data memory module provides a 4KB (1024 words × 32 bits) memory space for data storage and retrieval in a RISC-V single-cycle processor implementation.
+The data memory module provides a 4KB (1024 words × 32 bits) memory space for data storage and retrieval in a RISC-V single-cycle processorimplementation.
 
 ## Features
 
@@ -12,7 +12,7 @@ The data memory module provides a 4KB (1024 words × 32 bits) memory space for d
 - **Word-Aligned Access**: All memory accesses are word-aligned (4-byte boundaries)
 - **Synchronous Write**: Memory writes occur on the positive clock edge
 - **Combinational Read**: Memory reads are combinational for single-cycle operation
-- **Initialization**: Memory is initialized to zero on startup
+- **Initialization**: Memory is initialized to zero on startup .
 
 ## Module Interface
 
